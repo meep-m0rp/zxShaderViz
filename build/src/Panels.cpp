@@ -212,7 +212,7 @@ void MenuBarPanel::DrawUI()
 			}
 
 			ImGui::Separator();
-			if (ImGui::MenuItem("Close File", "Shift+C", nullptr, activeShader.get()))
+			if (ImGui::MenuItem("Close File", "Ctrl+W", nullptr, activeShader.get()))
 			{
 				if (shaderEditorPanel->IsSaved())
 					applicationInstance.CloseFile();
@@ -357,8 +357,8 @@ void MenuBarPanel::OnEvent(Event& e)
 			}
 			break;
 
-		case Key::C:
-			if (shift)
+		case Key::W:
+			if (control)
 			{
 				auto updateChangesPanel = GetPanel<UpdateChangesPanel>("Update Changes");
 	
