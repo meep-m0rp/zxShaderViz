@@ -7,6 +7,3 @@
 [submodule "build/ThirdParty/YAML"]
 	path = build/ThirdParty/YAML
 	url = https://github.com/Ciridev/Yaml-cpp
-[submodule "build/ThirdParty/GLFW"]
-	path = build/ThirdParty/GLFW
-	url = https://github.com/Ciridev/GLFW
