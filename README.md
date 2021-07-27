@@ -28,8 +28,8 @@ Developer | GitHub | Platform  | Version
 
   Platform | Release  
  ------------ | ------------ 
- Windows  | Download v1.0.0 Alpha 
- Windows  | Source Code 
+ Windows  | [Download v1.0.0 Alpha](https://github.com/ZeXo-Entertainment/zxShaderViz/releases/tag/v1.0.0a) 
+ Windows  | [Source Code](https://github.com/ZeXo-Entertainment/zxShaderViz/releases/tag/v1.0.0a) 
 
 
 ### ...or compile yourself the project!
