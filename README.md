@@ -35,7 +35,7 @@ Developer | GitHub | Platform  | Version
 ### ...or compile yourself the project!
 Using Visual Studio 2019 is recommended, you will need [Premake](https://premake.github.io/) to generate the solution files needed.
 1. Start by cloning the repository with the following command: 
-`git clone --recurive https://github.com/ZeXo-Entertainment/zxShaderViz`. 
+`git clone --recursive https://github.com/ZeXo-Entertainment/zxShaderViz`. 
 Or if you cloned the repository non-recusively, you can use this command:
 `git submodule update --init` to add all the dependencies.
 
