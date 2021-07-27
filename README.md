@@ -15,10 +15,9 @@ zxShaderViz is a useful tool made by our team, which aims to help learning about
 Developer | GitHub | Platform  | Version 
 ------------ | ------------ | ------------ | ------------
 | Lorenzo Cirillo | [@Ciridev](https://www.github.com/Ciridev) | Windows | Alpha Release v1.0.0 |
-### Coming Soon
-  Developer| GitHub| Platform 
- ------------ | ---------- | ------------ 
- Giancamillo Alessandroni |  [@NotManyIdeasDev](https://www.github.com/NotManyIdeasDev) | Windows 
+| Giancamillo Alessandroni |  [@NotManyIdeasDev](https://www.github.com/NotManyIdeasDev) | Windows | Alpha Release v1.1.0
+| Anthony | [@meep-m0rp](https://github.com/meep-m0rp) | openSUSE Linux | Alpha Release v1.1.0
+ 
 ###### We are looking for developers! [Join us!](https://github.com/ZeXo-Entertainment/Join-Us)
 
 
