@@ -8,6 +8,7 @@
 #include "Utils/Input.h"
 #include "Utils/FileDialogs.h"
 
+
 void TextCentered(const std::string& text)
 {
 	auto& io = ImGui::GetIO();
