@@ -9,7 +9,8 @@
 namespace FileDialogs
 {
     std::string openf(std::string filter) {
-        std::string cmd = "zenity --file-selection --file-filter=\"" + filter + "\"";
+        //cant use filter yet so just ignore it for now
+        std::string cmd = "zenity --file-selection";
         FILE* pipe = popen(cmd.c_str(), "r"); // open a pipe with zenity
         if (!pipe) return "ERROR"; // if failed then return "ERROR"
         char buffer[912]; // buffer to hold data
@@ -46,13 +47,13 @@ namespace FileDialogs
 	std::string OpenFile(const char* filter)
 	{
 		std::string file_location = openf(filter);
-        std::string file_contents = readf(file_location);
-        return file_contents;
+        return file_location;
 	}
 	
 	std::string SaveFileAs(const char* filter)
 	{
-		
+		std::string file_location = openf(filter);
+        return file_location;
 	}
 
 }
