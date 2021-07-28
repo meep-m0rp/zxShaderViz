@@ -509,7 +509,7 @@ void UpdateChangesPanel::DrawUI()
 
 	if (ImGui::BeginPopupModal("Save changes?", &m_Active, m_WindowFlags))
 	{
-		ImGui::SetWindowSize({ 650, 95 });
+		ImGui::SetWindowSize({ 650, 120 });
 		
 		ImGui::TextWrapped("It looks like you haven't saved your file. Would you like to update changes before opening a new file?");
 		ImGui::Separator();
